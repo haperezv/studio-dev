@@ -1,3 +1,6 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .home-wrapper {
     background: url('../images/background.jpg') no-repeat center top;
     background-size: cover;
@@ -14,7 +17,7 @@ header img {
 
 header nav {
     float: right;
-    margin-top: 1opx;
+    margin-top: 10px;
 }
 
 header nav a {
@@ -24,3 +27,53 @@ header nav a {
     margin-left: 10px;
     padding:  10px 15px;
 }
+
+header nav a.active{
+    background: #fed136;
+    border-radius: 3px;
+}
+
+#home {
+    text-align: center;
+    padding: 200px 0 150px;
+}
+
+#home h1{
+    font-size: 68px;
+    font-weight: normal;
+}
+
+#home p {
+    font-size: 24px;
+}
+
+#home .social{
+    margin-top: 80px;
+}
+
+#home .social a{
+    color: white;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: black;
+    font-size: 24px;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    margin-right: 10px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+#home .social a:hover {
+    background-color: #fed136;
+}
+
+.container{
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
